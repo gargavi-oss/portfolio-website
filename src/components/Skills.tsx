@@ -1,13 +1,9 @@
-import { motion,useScroll } from "motion/react";
+import { motion} from "motion/react";
 import Navbar from "./Navbar";
 
-interface Skill {
-  img: string;
-  text: string;
-}
 
 const Skills = () => {
-    const {scrollYProgress} = useScroll(); 
+
     const cardVariants = {
         hidden: { opacity: 0, x: -50 },
         visible: { opacity: 1, x: 0 },
