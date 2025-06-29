@@ -6,7 +6,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import image from '../assests/img.jpeg';
-import { Link } from 'react-router';
+import { NavLink } from 'react-router';
 
 
 const HomePage = () => {
@@ -76,7 +76,7 @@ const HomePage = () => {
               whileTap={{ paddingTop: 20 }}
               className="btn btn-outline h-11 px-5 rounded-3xl border-2 cursor-pointer"
             >
-            <Link to="/contactme">Hire Me</Link>  
+            <NavLink to="/contactme">Hire Me</NavLink>  
             </motion.button>
             <motion.button
               whileHover={{ backgroundColor: "#ddb892" }}
