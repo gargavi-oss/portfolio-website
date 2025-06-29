@@ -6,6 +6,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import image from '../assests/img.jpeg';
+import { Link } from 'react-router';
 
 
 const HomePage = () => {
@@ -69,13 +70,13 @@ const HomePage = () => {
             </motion.span>
           </div>
 
-          <div className="flex gap-6 mt-5">
+          <div className="flex gap-6 mt-8">
             <motion.button
               whileHover={{ borderColor: "red", backgroundColor: "#343a40" }}
               whileTap={{ paddingTop: 20 }}
               className="btn btn-outline h-11 px-5 rounded-3xl border-2 cursor-pointer"
             >
-              Hire Me
+            <Link to="/contactme">Hire Me</Link>  
             </motion.button>
             <motion.button
               whileHover={{ backgroundColor: "#ddb892" }}

@@ -37,7 +37,7 @@ const ProjectExperience = () => {
 
         <div className="mt-6">
           <a
-            href="https://github.com/gargavi-oss"
+            href="https://github.com/gargavi-oss/portfolio-website"
             target="_blank"
             rel="noopener noreferrer"
           >
