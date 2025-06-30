@@ -71,17 +71,20 @@ const HomePage = () => {
           </div>
 
           <div className="flex gap-6 mt-8">
+          <NavLink to="/contactme">
             <motion.button
-              whileHover={{ borderColor: "red", backgroundColor: "#343a40" }}
+         
+
               whileTap={{ paddingTop: 20 }}
-              className="btn btn-outline h-11 px-5 rounded-3xl border-2 cursor-pointer"
+              className="btn btn-outline h-11 px-5 rounded-3xl border-2 cursor-pointer hover:border-red-600 hover:bg-[#343a40]"
             >
-            <NavLink to="/contactme">Hire Me</NavLink>  
+         Hire Me
             </motion.button>
+            </NavLink>  
             <motion.button
-              whileHover={{ backgroundColor: "#ddb892" }}
+
               whileTap={{ paddingTop: 20 }}
-              className="btn btn-active btn-primary bg-red-600 border-red-400 h-11 px-5 rounded-3xl border-2 cursor-pointer"
+              className="btn btn-active btn-primary bg-red-600 hover:bg-[#ddb892] border-red-400 h-11 px-5 rounded-3xl border-2 cursor-pointer"
             >
               Get Resume
             </motion.button>
