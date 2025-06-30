@@ -1,14 +1,16 @@
 # 👨‍💻 Personal Portfolio Website - Avi Garg
 
-Welcome to my personal developer portfolio website, built to showcase my skills, experience, and projects in a modern, interactive, and responsive way.
+Welcome to my personal developer portfolio website, designed to showcase my skills, experience, education, and projects with a clean and modern UI.
 
-## 🚀 Tech Stack Used
+## 🚀 Tech Stack
 
-- **ReactJS** – Core frontend library for UI
-- **TypeScript** – Type-safe coding experience
-- **Tailwind CSS** – Utility-first CSS for rapid styling
-- **DaisyUI** – Prebuilt Tailwind CSS components for consistent design
-- **SVG Waves** – Smooth, custom wave transitions for section designs
+- **ReactJS** – Core UI library
+- **TypeScript** – Type-safe codebase
+- **React Router** – Seamless page navigation
+- **React Hook Form** – Lightweight form validation and handling
+- **Tailwind CSS** – Utility-first styling
+- **DaisyUI** – Prebuilt Tailwind components
+- **SVG Waves** – Custom SVG designs for visual appeal
 
 ## 📸 Screenshots
 
@@ -18,26 +20,22 @@ Welcome to my personal developer portfolio website, built to showcase my skills,
 ![Education Section](./screenshots/education.png)
 ![Contact Section](./screenshots/contact.png)
 
-## 🧠 Features
+## ✨ Features
 
-- Fully responsive across devices
-- Smooth UI with modern animations
-- Accessible design and clean layout
-- Custom SVG wave effects
-- Integrated contact form
-- Social media links for GitHub, LinkedIn, and Instagram
-
-## 📍 About Me
-
-I'm a frontend and backend developer passionate about building modern web applications. I enjoy creating user-friendly, scalable, and elegant solutions.
+- Fully responsive and accessible design
+- Smooth navigation using React Router
+- Contact form with validation using React Hook Form
+- Custom SVG wave dividers for visual transitions
+- Sectioned layout: About Me, Projects, Skills, Education, and Contact
+- Social icons linking to GitHub, LinkedIn, and Instagram
 
 ## 📬 Contact
 
-Feel free to reach out via the contact form or:
-- 📧 avigarg258@gmail.com
-- 📞 +91-7404648978
+You can reach me via:
+- 📧 Email: avigarg258@gmail.com
+- 📞 Phone: +91-7404648978
 
 ---
 
-Feel free to fork or star this repo if you liked it!
-
+💡 Feel free to fork, star, or contribute to the project.  
+🎯 Built with a focus on scalability, speed, and simplicity.
