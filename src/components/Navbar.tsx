@@ -89,7 +89,7 @@ const Navbar = () => {
           initial={{ x: "100vw" }}
           animate={{ x: 0 }}
           exit={{ x: "100vw" }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.4 }}
           className="fixed top-20 left-0 z-40 w-full h-full flex flex-col items-start gap-6 px-6 py-8 text-white font-mono text-xl font-semibold backdrop-blur-md bg-[#161a1d]/80"
         >
           {navItems.map((text) => (
@@ -97,7 +97,7 @@ const Navbar = () => {
               key={text}
               onClick={() => scrollToSection(text)}
               whileHover={{ scale: 1.08, paddingLeft: 12 }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0.4 }}
               className="cursor-pointer text-[#f8f9fa] hover:text-[#f87171]"
             >
              <Link to="/">{text}</Link> 
