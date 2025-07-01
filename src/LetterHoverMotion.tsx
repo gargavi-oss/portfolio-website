@@ -15,7 +15,7 @@ const LetterHoverMotion = ({ text, className = "" }: LetterHoverMotionProps) => 
           whileHover={{
             scale: 1.3,
             y: -5,
-            color: "red", // Tailwind blue-400
+            color: "red", 
             textShadow: "0px 0px 6px rgba(255,255,255,0.8)",
           }}
           transition={{
