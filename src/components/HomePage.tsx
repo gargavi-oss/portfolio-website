@@ -81,6 +81,7 @@ const HomePage = () => {
          Hire Me
             </motion.button>
             </NavLink>  
+            <a href="https://drive.google.com/file/d/1icWweUGFISUwsEjuLKfhUj-7n0R22vZN/view?usp=sharing">
             <motion.button
 
               whileTap={{ paddingTop: 20 }}
@@ -88,6 +89,7 @@ const HomePage = () => {
             >
               Get Resume
             </motion.button>
+            </a>
           </div>
         </div>
 
