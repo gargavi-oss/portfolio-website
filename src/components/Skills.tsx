@@ -20,6 +20,10 @@ const Skills = () => {
           text: "ReactJS",
         },
         {
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Redux_Logo.png/1600px-Redux_Logo.png",
+          text: "React Redux"
+        },
+        {
             img: "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
             text: "JavaScript"
         },
