@@ -49,6 +49,39 @@ const ProjectExperience = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 px-4 md:px-0">
+      <motion.div
+          whileHover={{ scale: 1.02, y: -5 }}
+          style={{scaleX: scrollYProgress}}
+          className="bg-[#1a1a1a] rounded-xl p-6 text-left shadow-lg"
+        >
+          <img
+            src="https://drive.google.com/uc?export=download&id=1MGyHEMcZJdnTfNqzMUYOnj5zzmYMDOUn"
+            alt="Send Files"
+            className="w-full h-40 object-cover rounded-md mb-4"
+          />
+          <h3 className="text-2xl font-bold text-red-500">Resume Builder</h3>
+          <p className="mt-2 text-gray-400 text-sm">
+           A react based Send Files website which sends files using a receiving code and give a download link to ur file it has Backend also and use MongoDB as database
+          </p>
+          <div className="mt-4 flex gap-5">
+            <a
+              href="https://github.com/gargavi-oss/send-files"
+              className="text-red-400 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Code →
+            </a>
+            <a
+              href="https://send-files-xi.vercel.app/"
+              className="text-red-400 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo →
+            </a>
+          </div>
+        </motion.div>
      
         <motion.div
           whileHover={{ scale: 1.02, y: -5 }}

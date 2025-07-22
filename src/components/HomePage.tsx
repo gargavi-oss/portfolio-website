@@ -31,9 +31,7 @@ const HomePage = () => {
                   "Web Development",
                   "Frontend Development",
                   "Backend Development",
-                  "Coding",
-                  "Innovating",
-                  "Competitive Coding",
+                 "MERN Stack"
                 ]}
                 typeSpeed={80}
                 loop
