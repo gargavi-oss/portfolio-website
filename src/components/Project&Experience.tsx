@@ -56,7 +56,7 @@ const ProjectExperience = () => {
           className="bg-[#1a1a1a] rounded-xl p-6 text-left shadow-lg"
         >
           <img
-            src="../assests/sendFiles.png"
+            src="/assets/sendFiles.png"
             alt="Send Files"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
