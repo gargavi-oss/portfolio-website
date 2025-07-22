@@ -55,11 +55,11 @@ const ProjectExperience = () => {
           className="bg-[#1a1a1a] rounded-xl p-6 text-left shadow-lg"
         >
           <img
-            src="https://drive.google.com/uc?export=download&id=1MGyHEMcZJdnTfNqzMUYOnj5zzmYMDOUn"
+            src="../screenshots/sendFiles.png"
             alt="Send Files"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
-          <h3 className="text-2xl font-bold text-red-500">Resume Builder</h3>
+          <h3 className="text-2xl font-bold text-red-500">Send Files</h3>
           <p className="mt-2 text-gray-400 text-sm">
            A react based Send Files website which sends files using a receiving code and give a download link to ur file it has Backend also and use MongoDB as database
           </p>
