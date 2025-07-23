@@ -12,7 +12,7 @@ import { useNavigate } from 'react-router-dom';
 const HomePage = () => {
   const navigate = useNavigate()
   return (
-    <div className="relative pt-10  md:pb-[150px] pb-[100px] min-w-screen bg-[#0a0908] text-white overflow-hidden">
+    <div className="relative pt-15  md:pb-[150px] pb-[100px] min-w-screen bg-[#0a0908] text-white overflow-hidden">
 
       <div className="md:p-20 pb-[100px] flex flex-col md:flex-row mt-10 gap-16 md:gap-10 justify-between items-center">
         <div className="w-full md:w-1/2 ml-10">
