@@ -3,7 +3,7 @@ import { useMediaQuery } from "../customHooks/useMediaQuery";
 import Hamburger from "hamburger-react";
 import { useState } from "react";
 import { SiGamedeveloper } from "react-icons/si";
-import { Link, NavLink } from "react-router";
+import {  NavLink } from "react-router";
 import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
