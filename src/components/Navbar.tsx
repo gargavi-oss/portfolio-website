@@ -35,7 +35,7 @@ return (
           className="flex items-center gap-2 font-mono font-extrabold text-3xl text-[#ef233c] hover:text-[#8d99ae]"
         >
           <SiGamedeveloper size={28} />
-          <h2 className="transition-colors">AVI GARG</h2>
+          <HashLink to="/#home" className="transition-colors">AVI GARG</HashLink>
         </motion.div>
 
         {isDesktop ? (

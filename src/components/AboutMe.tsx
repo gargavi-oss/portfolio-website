@@ -21,7 +21,7 @@ const AboutMe = () => {
   return (
     <section
       ref={ref}
-      className="bg-gradient-to-b from-[#ef3b3b] to-[#b32020] px-6 md:px-16 py-10 text-white "
+      className="bg-gradient-to-b from-[#ef3b3b] to-[#b32020] px-6 md:px-16 py-5 text-white "
     >
       <div className="text-center mb-12">
         <motion.h2
