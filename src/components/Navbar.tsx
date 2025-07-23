@@ -4,12 +4,13 @@ import Hamburger from "hamburger-react";
 import { useState } from "react";
 import { SiGamedeveloper } from "react-icons/si";
 import { Link, NavLink } from "react-router";
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   const isDesktop = useMediaQuery("(min-width: 1024px)");
   const [isOpen, setOpen] = useState(false);
 
-  const navItems = ["Home", "About Me", "Projects"];
+  const navItems = ["home", "aboutme", "projects"];
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id.toLowerCase());
@@ -26,7 +27,7 @@ const Navbar = () => {
     color: "#f87171",
   };
 
-  return (
+return (
     <>
       <div className="fixed top-0 left-0 z-50 w-full h-20 flex items-center justify-between px-6 backdrop-blur-md bg-[#2f3e46]/20 text-white">
         <motion.div
@@ -48,7 +49,7 @@ const Navbar = () => {
                 transition={{ duration: 0.3 }}
                 className="cursor-pointer text-white hover:text-[#edf2f4]"
               >
-               <Link to="/">{item}</Link>
+               <HashLink smooth to={`/#${item}`}>{`${item.toLocaleUpperCase()}`}</HashLink>
               </motion.h2>
             ))}
             <motion.h2
@@ -57,7 +58,7 @@ const Navbar = () => {
              transition={{ duration: 0.3 }}
              className="cursor-pointer text-white hover:text-[#edf2f4]"
             >
-            <NavLink to="/skills">Skills</NavLink>  
+            <NavLink to="/skills">SKILLS</NavLink>  
             </motion.h2>
             <motion.h2
              whileHover={navHover}
@@ -65,7 +66,7 @@ const Navbar = () => {
              transition={{ duration: 0.3 }}
              className="cursor-pointer text-white hover:text-[#edf2f4]"
             >
-            <NavLink to="/education">Education</NavLink>  
+            <NavLink to="/education">EDUCATION</NavLink>  
             </motion.h2>
             <motion.h2
              whileHover={navHover}
@@ -73,7 +74,7 @@ const Navbar = () => {
              transition={{ duration: 0.3 }}
              className="cursor-pointer text-white hover:text-[#edf2f4]"
             >
-            <NavLink to="/contactme">Contact Me</NavLink>  
+            <NavLink to="/contactme">CONTACT ME</NavLink>  
             </motion.h2>
           </div>
         ) : (
@@ -90,7 +91,7 @@ const Navbar = () => {
           animate={{ x: 0 }}
           exit={{ x: "100vw" }}
           transition={{ duration: 0.4 }}
-          className="fixed top-20 left-0 z-40 w-full h-full flex flex-col items-start gap-6 px-6 py-8 text-white font-mono text-xl font-semibold backdrop-blur-md bg-[#161a1d]/80"
+          className="fixed top-20 left-0 z-40 ml-10 mt-5 w-full h-auto flex rounded-2xl flex-col items-start gap-6 px-6 py-8 text-white font-mono text-xl font-semibold backdrop-blur-md bg-[#161a1d]/80"
         >
           {navItems.map((text) => (
             <motion.div
@@ -100,7 +101,7 @@ const Navbar = () => {
               transition={{ duration: 0.4 }}
               className="cursor-pointer text-[#f8f9fa] hover:text-[#f87171]"
             >
-             <Link to="/">{text}</Link> 
+              <HashLink smooth to={`/#${text}`}>{`${text.toLocaleUpperCase()}`}</HashLink>
             </motion.div>
             
           ))}
@@ -109,21 +110,21 @@ const Navbar = () => {
                transition={{ duration: 0.2 }}
                className="cursor-pointer text-[#f8f9fa] hover:text-[#f87171]"
             >
-            <NavLink to="/skills">Skills</NavLink>  
+            <NavLink to="/skills">SKILLS</NavLink>  
             </motion.h2>
             <motion.h2
                whileHover={{ scale: 1.08, paddingLeft: 12 }}
                transition={{ duration: 0.2 }}
                className="cursor-pointer text-[#f8f9fa] hover:text-[#f87171]"
             >
-            <NavLink to="/education">Education</NavLink>  
+            <NavLink to="/education">EDUCATION</NavLink>  
             </motion.h2>
             <motion.h2
                whileHover={{ scale: 1.08, paddingLeft: 12 }}
                transition={{ duration: 0.2 }}
                className="cursor-pointer text-[#f8f9fa] hover:text-[#f87171]"
             >
-            <NavLink to="/contactme">Contact Me</NavLink>  
+            <NavLink to="/contactme">CONTACT ME</NavLink>  
             </motion.h2>
         </motion.div>
       )}

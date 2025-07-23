@@ -13,7 +13,7 @@ const Layout = () => {
         <HomePage />
       </section>
 
-      <section id="about me">
+      <section id="aboutme">
         <AboutMe />
       </section>
 

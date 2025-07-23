@@ -6,10 +6,11 @@ import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import image from '../assests/img.jpeg';
-import { NavLink } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 
 
 const HomePage = () => {
+  const navigate = useNavigate()
   return (
     <div className="relative pt-10 pb-[150px] min-w-screen bg-[#0a0908] text-white overflow-hidden">
 
@@ -69,25 +70,23 @@ const HomePage = () => {
           </div>
 
           <div className="flex gap-6 mt-8">
-          <NavLink to="/contactme">
-            <motion.button
          
-
+            <motion.button     
+              onClick={()=>{navigate("/contactme")}}
               whileTap={{ paddingTop: 20 }}
-              className="btn btn-outline h-11 px-5 rounded-3xl border-2 cursor-pointer hover:border-red-600 hover:bg-[#343a40]"
+              className="h-11 px-5 rounded-3xl border-2 z-50 cursor-pointer  hover:border-red-600 hover:bg-[#343a40]"
             >
          Hire Me
             </motion.button>
-            </NavLink>  
-            <a href="https://drive.google.com/file/d/1icWweUGFISUwsEjuLKfhUj-7n0R22vZN/view?usp=sharing">
+         
             <motion.button
 
               whileTap={{ paddingTop: 20 }}
-              className="btn btn-active btn-primary bg-red-600 hover:bg-[#ddb892] border-red-400 h-11 px-5 rounded-3xl border-2 cursor-pointer"
+              className="btn btn-active btn-primary z-50 bg-red-600 hover:bg-[#ddb892] border-red-400 h-11 px-5 rounded-3xl border-2 cursor-pointer"
             >
-              Get Resume
+             <a href="https://drive.google.com/file/d/1icWweUGFISUwsEjuLKfhUj-7n0R22vZN/view?usp=sharing" className=''>Get Resume</a>
             </motion.button>
-            </a>
+           
           </div>
         </div>
 
