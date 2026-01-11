@@ -84,7 +84,7 @@ const HomePage = () => {
               whileTap={{ paddingTop: 20 }}
               className="btn btn-active btn-primary z-50 bg-red-600 hover:bg-[#ddb892] border-red-400 h-11 px-5 rounded-3xl border-2 cursor-pointer"
             >
-             <a href="https://drive.google.com/file/d/1icWweUGFISUwsEjuLKfhUj-7n0R22vZN/view?usp=sharing" className=''>Get Resume</a>
+             <a href="https://drive.google.com/file/d/1hYJEk_GFbNk6ITe0vfWz2OHY74EpC0F2/view?usp=sharing" className=''>Get Resume</a>
             </motion.button>
            
           </div>
